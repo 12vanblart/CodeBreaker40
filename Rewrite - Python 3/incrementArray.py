@@ -10,5 +10,11 @@
 ###################################################################################################
 
 def incrementArray(arrIn, maxVal):
-  for row,col in arrIn:
-    
+  for row in arrIn:
+    for col in arrIn[row]:
+      arrIn[row][col] = arrIn[row][col] + 1
+      if arrIn[row][col] == maxVal:
+        arrIn[row][col] = 0
+      else:
+        break
+  return arrIn
