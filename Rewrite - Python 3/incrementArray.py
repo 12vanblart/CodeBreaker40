@@ -4,9 +4,9 @@
 ##############################
 
 ###################################################################################################
-#This will contain everything needed to increment a 2-D array                                        #
+#This will contain everything needed to increment a 2-D array                                     #
 ###################################################################################################
-#The function should support dynamic 'max' values to easily allow testing                         #
+#The function should support dynamic 'max' values to easily allow testing and scaling             #
 ###################################################################################################
 
 def incrementArray(arrIn, maxVal):
