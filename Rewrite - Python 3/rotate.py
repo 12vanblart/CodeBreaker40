@@ -37,3 +37,4 @@ if __name__ == "__main__":
 ##  >>> lst = ['string1', 'string2', 'string3']
 ##  >>> lst.append(lst.pop(lst.index('string2')))
 ##  Use above to pop the first item in an array to the end of the array. 
+
