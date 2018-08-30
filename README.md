@@ -16,7 +16,7 @@ My thought is that the it would run through every possible puzzle layout startin
 
 ## Intro
 
-Codebreaker 40 is a puzzle game and can be purchased [here](http://www.creativecrafthouse.com/index.php?main_page=product_info&products_id=805)
+Codebreaker 40 is a puzzle game and can be purchased [here](https://www.creativecrafthouse.com/safecracker-40-puzzle-can-you-find-the-combination.html)
 
 The goal of the puzzle is to align the numbers so that every column equates to 40. Using a brute force method and python, it has been confirmed that there exists only a single solution. Now the goal is to reconstruct that original program from Python into Java and build it in a way that can check any size puzzle for how many solutions exist. 
 
