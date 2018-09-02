@@ -14,12 +14,52 @@ Given the following puzzle: (Assume that in this case the rows are all individua
     
     7 8 9
 
-After 5 turns: 
+After 1 turns: 
     
-    2 3 1
+    **3 1 2**
+    
+    4 5 6
+    
+    7 8 9
+
+After 2 turns: 
+    
+    **2 3 1**
+    
+    4 5 6
+    
+    7 8 9
+
+After 3 turns: 
+    
+    **1 2 3**
+    
+    **6 4 5**
+    
+    7 8 9
+
+After 4 turns: 
+    
+    **3 1 2**
     
     6 4 5
     
     7 8 9
 
-How can we take 5 and know that this time we need to turn the second row also? 
+After 5 turns: 
+    
+    **2 3 1**
+    
+    6 4 5
+    
+    7 8 9
+
+How can we take 5 and know that for the 6th turn, we need to turn the second row also (to get the following output)? 
+
+After 6 turns: 
+    
+    **1 2 3**
+    
+    **5 6 4**
+    
+    7 8 9
