@@ -27,12 +27,25 @@ def main():
     target = 40
     cog = "X"
     solutions = []
-    #Increment Puzzle
-    puzzle = incrementArray.incrementArray(puzzle, 40)
-    print(puzzle)
-    #Check for solutions
-    if (checkSolution.checkSolution(puzzle, target, cog)):
-        solutions.append(puzzle)
+    #Init File for results
+    f = open("solutions.txt", "a")
+    for i in range(268435457):
+        #Increment Puzzle
+        puzzle = incrementArray.incrementArray(puzzle, 40)
+        print(puzzle)
+        #Check for solutions
+        if (checkSolution.checkSolution(puzzle, target, cog)):
+            solutions.append(puzzle)
+        #rotate puzzle & Check solution
+        puzzleR = puzzle #Set Puzzle R to ensure that the initial puzzle is always at rotations = 0
+        for j in range(64000):
+            puzzleR = rotate.rotate(puzzleR, j)
+            if (checkSolution.checkSolution(puzzleR, target, cog)):
+                solutions.append(puzzleR)
+        #Append to file
+        f.write("\n")
+        f.write(solutions)
+            
     print(solutions)
     
     
