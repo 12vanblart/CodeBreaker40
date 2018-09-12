@@ -27,12 +27,13 @@ def main():
     target = 40
     cog = "X"
     solutions = []
-    #Increment Puzzle
-    puzzle = incrementArray.incrementArray(puzzle, 40)
-    print(puzzle)
-    #Check for solutions
-    if (checkSolution.checkSolution(puzzle, target, cog)):
-        solutions.append(puzzle)
+    for i in range(268435457):
+        #Increment Puzzle
+        puzzle = incrementArray.incrementArray(puzzle, 40)
+        print(puzzle)
+        #Check for solutions
+        if (checkSolution.checkSolution(puzzle, target, cog)):
+            solutions.append(puzzle)
     print(solutions)
     
     
