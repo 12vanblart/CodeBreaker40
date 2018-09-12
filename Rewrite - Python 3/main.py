@@ -45,6 +45,7 @@ def main():
         #Append to file
         f.write("\n")
         f.write(solutions)
+        f.close()
             
     print(solutions)
     
