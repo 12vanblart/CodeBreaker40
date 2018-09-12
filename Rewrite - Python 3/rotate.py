@@ -22,7 +22,7 @@ def rotate(puzzleIn, turnsMade):
     tempArray = puzzleIn[(unit*2)+1]
     tempArray.append(tempArray.pop(0))
     puzzleIn[(unit*2)+1] = tempArray
-  print(puzzleIn)
+  return puzzleIn
     
     
 ## DEV NOTES##
