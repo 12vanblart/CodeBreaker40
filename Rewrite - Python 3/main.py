@@ -39,12 +39,12 @@ def main():
         #rotate puzzle & Check solution
         puzzleR = puzzle #Set Puzzle R to ensure that the initial puzzle is always at rotations = 0
         for j in range(64000):
-            puzzleR = rotate.rotate(puzzleR, j)
+            puzzleR,turns = rotate.rotate(puzzleR, j)
             if (checkSolution.checkSolution(puzzleR, target, cog)):
                 solutions.append(puzzleR)
         #Append to file
         f.write("\n")
-        f.write(solutions)
+        f.write("".join(solutions))
         f.close()
             
     print(solutions)

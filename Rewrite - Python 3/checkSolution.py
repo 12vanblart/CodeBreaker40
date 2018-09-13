@@ -24,7 +24,7 @@ def checkSolution(puzzle, value, cog = "X"):
       if puzzle[rowVal][col] == cog:
         total += puzzle[rowVal-1][col]
       else:
-        total += puzzle[rowVal][col]
+        total += int(puzzle[rowVal][col])
       rowVal += 2
     if total != value:
       response = False
