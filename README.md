@@ -22,7 +22,7 @@ My thought is that the it would run through every possible puzzle layout startin
 
 The goal of the puzzle is to align the numbers so that every column equates to 40. Using a brute force method and python, it has been confirmed that there exists only a single solution. 
 
-The goal is to reconstruct the original program from Python into a Java program which accepts any puzzle size and checks how many solutions exist.
+The goal was to reconstruct the original program from Python into a Java program which accepts any puzzle size and checks how many solutions exist, but has since been reconstructed in Python instead. 
 
 ## What constitutes a Solution?
 
