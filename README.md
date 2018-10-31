@@ -1,6 +1,10 @@
 # CodeBreaker40
 Program for cracking the CodeBreaker 40 Puzzle. 
 
+### Update 10/31/18
+
+After running this code for ~1 month straight, the code had just incremented the 4th slot to "1", and as such will take a very long time to run. Any insight for how to improve the amount of time this would take without a super computer is appreciated! 
+
 ## Folders Outline
 
 - **CodeBreaker40-master** — Contains initial Java files i started with when rewriting the code. (Did not get very far with the java).
